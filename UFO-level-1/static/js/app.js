@@ -1,6 +1,6 @@
 //`datetime`, `city`, `state`, `country`, `shape`, durationMinutes, and `comment`.. need
 //datetime: "1/1/2010"
-console.log("what do we have in this script?");
+//console.log("what do we have in this script?");
 // from data.js
 var tableData = data;
 
@@ -39,13 +39,13 @@ tableData.forEach((table) => {
         }
     });
 });
-console.log(datetimes);
-console.log(cities);
-console.log(states);
-console.log(countries);
-console.log(shapes);
-console.log(durationMin);
-console.log(comment);
+//console.log(datetimes);
+//console.log(cities);
+//console.log(states);
+//console.log(countries);
+//console.log(shapes);
+//console.log(durationMin);
+//console.log(comment);
 
 
 var sightings = data;
@@ -58,8 +58,8 @@ function filterTable() {
   var inputElement = d3.select("#datetime");
   var inputValue = inputElement.property("value");
 
-  console.log(inputValue);
-  console.log(sightings);
+  //console.log(inputValue);
+  //console.log(sightings);
 
   var filteredData = sightings.filter(sighting => sighting.datetime === inputValue);
 
